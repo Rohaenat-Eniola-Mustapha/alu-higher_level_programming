@@ -7,4 +7,4 @@ elif number < 0:
     num = "is negative"
 else:
     num = "is zero"
-print(f"{number, num}")
+print("{:d}".format(number), num)
