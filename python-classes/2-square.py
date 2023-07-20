@@ -3,8 +3,8 @@
 
 
 class Square:
+    """This function checks whether the provided is an integer"""
     def __init__(self, size=0):
-        """This function checks whether the provided is an integer"""
         if not isinstance(size, int):
             raise TypeError("size must be an integer")
         if size < 0:
