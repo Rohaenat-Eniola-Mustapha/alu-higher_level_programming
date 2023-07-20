@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""This is a module that creates the coordinates of a square"""
+"""This is a module that creates the square"""
 
 
 class Square:
