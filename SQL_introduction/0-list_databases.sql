@@ -1,3 +1,2 @@
--- list all sql database
-mysql -u user -p 
-mysql > SHOW DATABASES;
+-- list all sql database 
+SHOW DATABASES;
