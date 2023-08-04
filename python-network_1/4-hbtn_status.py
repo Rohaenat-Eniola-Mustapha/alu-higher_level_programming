@@ -1,12 +1,11 @@
 #!/usr/bin/python3
+"""Fetching a url"""
+
 import requests
 
-url = 'https://alu-intranet.hbtn.io/status'
 
-response = requests.get(url)
-body_type = str(type(response.text))
-body_content = response.text
-
-print("Body response:")
-print("\t- type:", body_type)
-print("\t- content:", body_content)
+if __name__ == "__main__":
+    response = requests.get("https://intranet.hbtn.io/status")
+    print("Body response:")
+    print("\t- type: {}".format(type(response.text)))
+    print("\t- content: {}".format(response.text))
