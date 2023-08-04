@@ -6,8 +6,8 @@ url = 'https://alu-intranet.hbtn.io/status'
 with urllib.request.urlopen(url) as response:
     body_response = response.read()
     body_type = type(body_response)
-    body_content = b'Custom status'
-    body_utf8_content = 'Custom status'
+    body_content = body_response
+    body_utf8_content = body_response.decode('utf-8')
 
 print("Body response:")
 print("\t- type:", body_type)
