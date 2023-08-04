@@ -10,6 +10,6 @@ with urllib.request.urlopen(url) as response:
     body_utf8_content = body_response.decode('utf-8')
 
 print("Body response:")
-print("    - type:", body_type)
-print("    - content:", body_content)
-print("    - utf8 content:", body_utf8_content)
+print("\t- type:", body_type)
+print("\t- content:", body_content)
+print("\t- utf8 content:", body_utf8_content)
