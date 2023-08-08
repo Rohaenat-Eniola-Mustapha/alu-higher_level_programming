@@ -2,7 +2,7 @@ Import `say_my_name`
 
 >>> say_my_name = __import__('3-say_my_name').say_my_name
 
->>> say_my_name("Mustapha", "Rohaenat")
+>>> say_my_name("Kanyogo", "Brian")
 My name is kayongo Brian
 
 >>> say_my_name(2)
