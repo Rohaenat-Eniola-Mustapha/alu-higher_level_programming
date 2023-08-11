@@ -1,7 +1,8 @@
 #!/usr/bin/python3
-# A script that takes in the name of a state as an argument,
-# lists all cities of that state, using the database hbtn_0e_4_usa
-"""import 'sys' & 'MySQLdb'."""
+""" A script that takes in the name of a state as an argument,
+ lists all cities of that state, using the database hbtn_0e_4_usa
+import 'sys' & 'MySQLdb'."""
+
 import sys
 import MySQLdb
 import SQLAlchemy
