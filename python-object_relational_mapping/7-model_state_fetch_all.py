@@ -9,7 +9,9 @@ import sqlalchemy
 from sqlalchemy
 from SQLAlchemy
 
+
 if __name__ == "__main__":
+    """imported MySQLAlchemy above"""
     db = MySQLdb.connect(user=sys.argv[1], passwd=sys.argv[2], db=sys.argv[3])
     m = db.cursor()
     m.execute("SELECT * FROM `cities` as `m` \
