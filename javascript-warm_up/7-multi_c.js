@@ -10,6 +10,6 @@ if (!isNaN(x) && x > 0) {
     console.log('C is fun');
   }
 } else {
-  // Print "Missing number of occurrences" if the argument is missing or not a positive integer
-  console.log('Missing number of occurrences');
+  // Print " " if the argument is missing or not a positive integer
+  console.log(' ');
 }
