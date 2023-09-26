@@ -11,5 +11,5 @@ if (!isNaN(x) && x > 0) {
   }
 } else {
   // Print " " if the argument is missing or not a positive integer
-  console.log(' ');
+  console.log('');
 }
