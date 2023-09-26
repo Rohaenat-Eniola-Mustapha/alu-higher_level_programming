@@ -10,5 +10,5 @@ if (arg1 !== undefined && arg2 !== undefined) {
   console.log(arg1 + ' is ' + arg2);
 } else {
   // Print "undefined is undefined" if one or both arguments are missing
-  console.log('undefined is undefined');
+  console.log('HBTN is undefined');
 }
