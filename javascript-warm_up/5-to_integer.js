@@ -12,6 +12,5 @@ if (!isNaN(integer)) {
   console.log(`My number: ${integer}`);
 } else {
   // Print "Not a number"
-  console.log("Not a number");
+  console.log('Not a number');
 }
-
