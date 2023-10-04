@@ -4,5 +4,4 @@ $(document).ready(function () {
       // Update the text of the <header> element
       $('header').text('New Header!!!');
     });
-  });
-  
+  });  
