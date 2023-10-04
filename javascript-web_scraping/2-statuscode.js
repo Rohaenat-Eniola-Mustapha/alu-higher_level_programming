@@ -19,4 +19,3 @@ request.get(url, (error, response) => {
     console.log(`code: ${response.statusCode}`);
   }
 });
-
